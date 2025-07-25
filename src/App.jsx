@@ -13,7 +13,7 @@ import Companies from "./components/admin/Companies";
 import AdminJobs from "./components/admin/AdminJobs";
 import CreateCompany from "./components/admin/CreateCompany";
 import UpdateCompany from "./components/admin/UpdateCompany";
-//import CreateJobs from "./components/admin/createJobs";
+import CreateJobs from "./components/admin/createJobs";
 
 function App() {
   return (
@@ -32,8 +32,7 @@ function App() {
         <Route path="/admin/jobs" element={<AdminJobs />} />
         <Route path="/admin/create/company" element={<CreateCompany />} />
         <Route path="/admin/update/company/:id" element={<UpdateCompany />} />
-        
-
+        <Route path="/admin/create/job" element={<CreateJobs />} />
       </Routes>
       <ToastContainer />
     </div>
