@@ -32,7 +32,8 @@ function App() {
         <Route path="/admin/jobs" element={<AdminJobs />} />
         <Route path="/admin/create/company" element={<CreateCompany />} />
         <Route path="/admin/update/company/:id" element={<UpdateCompany />} />
-        <Route path="/admin/create/job" element={<CreateJobs />} />
+        
+
       </Routes>
       <ToastContainer />
     </div>
