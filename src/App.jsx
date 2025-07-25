@@ -13,7 +13,7 @@ import Companies from "./components/admin/Companies";
 import AdminJobs from "./components/admin/AdminJobs";
 import CreateCompany from "./components/admin/CreateCompany";
 import UpdateCompany from "./components/admin/UpdateCompany";
-import CreateJobs from "./components/admin/createJobs";
+//import CreateJobs from "./components/admin/createJobs";
 
 function App() {
   return (
